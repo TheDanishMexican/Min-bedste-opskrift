@@ -1,2 +1,2 @@
-document.body.innerHTML += "Butterchicken yeah";
-alert("You may fall into an addiction, proceed with caution");
+document.body.innerHTML += "";
+//alert("You may fall into an addiction, proceed with caution");
