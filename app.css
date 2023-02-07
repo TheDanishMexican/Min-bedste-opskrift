@@ -20,7 +20,7 @@ a:hover {
 }
 /* Det her er styling til størrelse på det billede der er indsat på siden */
 img {
-  width: 350px;
+  width: 550px;
 }
 /* Det her er styling der går skrifttypen fed på mit button element */
 button {
@@ -28,7 +28,7 @@ button {
 }
 .image {
   float: right;
-  margin: 0px 400px 15px 100px;
+  margin: 0px 100px 15px 100px;
 }
 .beskrivelse,
 .fremgangsmåde,
@@ -39,9 +39,26 @@ button {
 .navigationbar {
   text-align: center;
 }
+.topofpage {
+  grid-area: header;
+}
 .navigationbar {
+  grid-area: menu;
+}
+.text {
+  grid-area: main;
+}
+.image {
+  grid-area: right;
+}
+.empty {
+  grid-area: footer;
+}
+section {
+  color: rgb(7, 7, 193);
+}
+.gridcontainer {
   display: grid;
   grid-template-columns: auto auto auto;
-  background-color: aqua;
-  padding: 10px;
+  padding-left: 100px;
 }
