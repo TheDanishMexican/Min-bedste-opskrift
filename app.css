@@ -1,21 +1,41 @@
+/* Det her er stylingen for overskriften */
 header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-transform: uppercase;
+  text-align: center;
 }
+/* Det her er stylingen for body elementerne */
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: bisque;
 }
+/* Det her er stylingen for href når musen er placeret henover */
 a:hover {
   color: black;
 }
+/* Det her er stylingen for listerne i fremgangsmåde og ingredienser */
 .fremgangsmåde li,
 .ingredienser li {
   font-style: italic;
 }
+/* Det her er styling til størrelse på det billede der er indsat på siden */
 img {
   width: 350px;
 }
+/* Det her er styling der går skrifttypen fed på mit button element */
 button {
   font-weight: bold;
+}
+.image {
+  float: right;
+  margin: 0px 400px 15px 100px;
+}
+.beskrivelse,
+.fremgangsmåde,
+.ingredienser,
+.tilberedningstid {
+  margin-left: 10px;
+}
+.navigationbar {
+  text-align: center;
 }
