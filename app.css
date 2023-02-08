@@ -1,31 +1,18 @@
 .knapper {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   width: 100%;
 }
 .liste ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  align-items: auto;
+  grid-template-rows: repeat(2, 1fr);
 }
-.listeelement {
-  grid-row: 1;
-}
-.listeelement li {
-  width: 90%;
-}
-.imagecontainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-}
-.image {
-  grid-column: 2/3;
-}
+
 body {
-  margin-left: 2%;
-  margin-right: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 header {
   color: orange;
@@ -36,4 +23,10 @@ header {
   background-color: aliceblue;
   border: none;
   font-style: italic;
+}
+body {
+  background-color: bisque;
+}
+.knapper p {
+  font-weight: bold;
 }
