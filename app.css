@@ -1,10 +1,39 @@
 .knapper {
-  height: 30px;
-  width: 120px;
-}
-
-.knapper {
   display: grid;
-  grid-template-columns: min-content min-content min-content min-content;
-  grid-gap: 60px;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+.liste ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  align-items: auto;
+}
+.listeelement {
+  grid-row: 1;
+}
+.listeelement li {
+  width: 90%;
+}
+.imagecontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+}
+.image {
+  grid-column: 2/3;
+}
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+header {
+  color: orange;
+  text-align: center;
+}
+.knapper button {
+  cursor: pointer;
+  background-color: aliceblue;
+  border: none;
+  font-style: italic;
 }
