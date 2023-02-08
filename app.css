@@ -9,6 +9,9 @@
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
+.liste .listeelement {
+  width: 70%;
+}
 
 body {
   margin-left: 0%;
