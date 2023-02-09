@@ -7,44 +7,83 @@
     <title>Min bedste opskrift</title>
   </head>
   <header>
-    <h1>Opskrift af daniel</h1>
+    <h1>OPSKRIFT AF DANIEL</h1>
   </header>
+
   <body>
-    <section class="ingredienser">
-      <div class="navigationbar">
-        <a href="index.html">Oversigt</a>
-        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./beskrivelse.html">Fremgangsmåde</a>
-        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./Ingredienser.html">Ingredienser</a>
-        &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="./Tilberedningstid.html">Tilberedningstid</a>
-      </div>
-      <br /><br /><br />
-
-      <div class="image">
-        <img
-          src="https://cdn.pixabay.com/photo/2021/07/14/09/29/food-6465556_960_720.jpg"
-          alt="butterchicken"
-          height="500px"
-        />
-      </div>
-      <div class="liste">
-        <h2>Ingredienser</h2>
-        <ol>
-          <li>Kylling</li>
-          <li>Løg</li>
-          <li>Hvidløg</li>
-          <li>Smør</li>
-          <li>Kokosmælk</li>
-          <li>Ingefær</li>
-        </ol>
-      </div>
+    <section class="knapper">
+      <button
+        class="beskrivelse"
+        onclick="window.location.href='./beskrivelse.html';"
+      >
+        <p>Fremgangsmåde</p>
+      </button>
+      <button class="Oversigt" onclick="window.location.href='./index.html';">
+        <p>Oversigt</p>
+      </button>
+      <button
+        class="Ingredienser"
+        onclick="window.location.href='./Ingredienser.html';"
+      >
+        <p>Ingredienser</p>
+      </button>
+      <button
+        class="Tilberedningstid"
+        onclick="window.location.href='./tilberedningstid.html';"
+      >
+        <p>Tilberedningstid</p>
+      </button>
     </section>
-
+    <section class="ingredienser">
+      <h2>Ingredienser</h2>
+      <ul>
+        <div class="listeelement">
+          <h3>Krydderier:</h3>
+          <li>1 spsk garam masala</li>
+          <li>1 teske paprika</li>
+          <li>1 teske tandoori masala</li>
+          <li>1/2 teske chilipulver (efter smag)</li>
+          <li>1 teske korianderpulver</li>
+          <li>1 teske kommenpulver</li>
+          <li>1 teske tørret koriander</li>
+        </div>
+        <div class="listeelement">
+          <h3>Grøntsager:</h3>
+          <li>1 stor løg, hakket</li>
+          <li>5 fed hvidløg, hakket</li>
+          <li>2 cm ingefær, revet</li>
+          <li>2 store tomater, hakket</li>
+          <li>Friskkoriander til pynt</li>
+        </div>
+        <div class="listeelement">
+          <h3>Diverse:</h3>
+          <li>100 g blødt smør</li>
+          <li>2 spsk yoghurt</li>
+          <li>2 dl fløde</li>
+          <li>1 kg kyllingebryst, skåret i små tern</li>
+        </div>
+      </ul>
+    </section>
+    <section class="billeder">
+      <img
+        class="krydderier"
+        src="https://cdn.pixabay.com/photo/2022/10/07/15/46/indian-spices-7505383_960_720.jpg"
+        alt="krydderier"
+        width="300px"
+      />
+      <img
+        class="grøntsager"
+        src="https://cdn.pixabay.com/photo/2017/01/03/01/13/vegetables-1948264_960_720.jpg"
+        alt="grøntsager"
+        width="300px"
+      />
+      <img
+        class="andet"
+        src="https://cdn.pixabay.com/photo/2018/02/25/07/15/food-3179853_960_720.jpg"
+        alt="andet"
+        width="300px"
+      />
+    </section>
     <link rel="stylesheet" href="app.css" />
   </body>
 </html>
