@@ -8,18 +8,26 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
+  column-gap: 1%;
+  margin-left: 2%;
 }
 .ris {
+  background-color: rgb(197, 181, 181);
+  border: solid black;
   grid-column: 1/2;
   grid-row: 1/2;
   margin-bottom: 1%;
 }
 .marinade {
+  background-color: rgb(197, 181, 181);
+  border: solid black;
   grid-column: 2/3;
   grid-row: 1/2;
   margin-bottom: 1%;
 }
 .sauce {
+  background-color: rgb(197, 181, 181);
+  border: solid black;
   grid-column: 3/3;
   grid-row: 1/2;
   margin-bottom: 1%;
@@ -56,14 +64,17 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(1, 1fr);
+  background-color: rgb(197, 181, 181);
+  border: solid black;
 }
-.ingredienser ul {
-  margin-left: 10%;
-}
+
 .intro {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
+  background-color: rgb(197, 181, 181);
+  border: solid black;
+  margin-inline: 5%;
 }
 .text {
   grid-column: 1/2;
@@ -110,8 +121,12 @@ h2 {
 }
 
 .tekst {
+  background-color: rgb(197, 181, 181);
+  border: solid black;
   grid-area: tekst;
-  width: 50vw;
+  width: 40vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 .fodnote {
   grid-area: fodnote;
